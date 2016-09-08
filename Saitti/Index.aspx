@@ -12,9 +12,16 @@
         <div>
             <h1>IIO13200. NET Ohjelmointi</h1>
             <h2>1.kontaktikerta</h2>
+            <h3>Perus HTML kontrolleja</h3>
+            <a href="Test.html">Testi html-sivu</a>
             <p>
                 Esimerkki ASP.NET DataKontrollista
                 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ShowPhotos.aspx">Show Photos</asp:HyperLink>
+                
+            </p>
+            <p>
+                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/Hello.aspx">Hello!</asp:LinkButton>
+
             </p>
             <p>
                 Esimerkki kuinka koodissa rakennetaan HTML:ää

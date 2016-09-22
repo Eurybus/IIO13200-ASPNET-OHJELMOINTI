@@ -28,6 +28,15 @@
                 <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ShowCustomers.aspx">Show WineCustomers</asp:HyperLink>
             </p>
         </div>
+        <div>
+            <h2>To 22.9.2016</h2>
+            <h3>
+                Tideon välitys sivulta toiselle:
+            </h3>
+            <p>
+                <asp:HyperLink ID="Hyperlink3" runat="server" NavigateUrl="~/SourceSite.aspx">Tiedon välitys kuudella eri tavalla</asp:HyperLink>
+            </p>
+        </div>
     </form>
 </body>
 </html>
